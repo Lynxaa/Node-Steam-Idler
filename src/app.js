@@ -2,7 +2,6 @@
 global._mckay_statistics_opt_out = true;
 
 // declarations.
-const cron = require('node-cron');
 const fs = require('fs');
 const SteamUser = require('steam-user');
 
