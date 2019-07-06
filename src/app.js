@@ -2,12 +2,11 @@
 global._mckay_statistics_opt_out = true;
 
 // declarations.
-const fs = require('fs');
 const SteamUser = require('steam-user');
 
 // parse command line arguments.
 // command line example: npm run app.js [username, password, [app...]]
-// where app arg is repeated per value, e.g: -app 730 -app 440 -app 540 -app 6969
+// where app arg is repeated per value, e.g: --app 730 --app 440 --app 540 --app 6969
 const argv = require('yargs').argv;
 
 // validate command line arguments.
